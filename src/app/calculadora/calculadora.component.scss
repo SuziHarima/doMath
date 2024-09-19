@@ -1,0 +1,42 @@
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #3f62eb;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 1.5rem;
+    width: 20%;
+    div{
+        &.numbers{
+            display: flex;
+            flex-direction: row;
+            border: 0px;
+        }
+    }
+    input{
+        margin: 8px;
+        width: 5rem;
+        height: 4rem;
+        border-radius: 5px;
+        box-shadow: 3px 3px;
+        font-size: large;
+        text-align: center;
+    }
+    button{
+        width: 3rem;
+        height: 3rem;
+        font-size: larger;
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 5px;
+        background: white;
+        &:active{
+            transform: translateY(3px);
+        }
+    }
+    p{
+        font-size: large;
+    }
+}
