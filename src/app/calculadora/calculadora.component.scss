@@ -24,16 +24,25 @@
         font-size: large;
         text-align: center;
     }
-    button{
-        width: 3rem;
-        height: 3rem;
-        font-size: larger;
-        cursor: pointer;
-        border: 2px solid black;
-        border-radius: 5px;
-        background: white;
-        &:active{
-            transform: translateY(3px);
+    div{
+        &.mathButtons{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            border: 0px;
+            gap: 0.2rem;
+            button{
+                width: 3rem;
+                height: 3rem;
+                font-size: larger;
+                cursor: pointer;
+                border: 2px solid black;
+                border-radius: 5px;
+                background: white;
+                &:active{
+                    transform: translateY(3px);
+                }
+            }
         }
     }
     p{

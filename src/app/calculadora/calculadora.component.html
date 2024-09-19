@@ -4,6 +4,11 @@
 <input type="number" [(ngModel)]="number1" placeholder="number 1">
 <input type="number" [(ngModel)]="number2" placeholder="number 2">
 </div>
+<div class="mathButtons">
 <button (click)="somatoria(number1, number2)">+</button>
+<button (click)="diminuir(number1, number2)">-</button>
+<button (click)="divisao(number1, number2)">/</button>
+<button (click)="multiplicacao(number1, number2)">*</button>
+</div>
 <p>Resultado: {{ result }}</p>
 </div>
