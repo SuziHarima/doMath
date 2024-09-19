@@ -11,4 +11,19 @@ export class CalculadoraService {
     return a + b;
   }
 
+  subtrair(a:number, b: number): number{
+    return a - b;
+  }
+
+  dividir(a:number, b:number): number{
+    if(b == 0){
+      throw console.error("Divisão por zero");
+    }
+    return a / b;
+  }
+
+  multiplicar(a:number, b:number): number{
+    return a * b;
+  }
+
 }

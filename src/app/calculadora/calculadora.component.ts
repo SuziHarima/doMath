@@ -22,4 +22,16 @@ export class CalculadoraComponent {
     return this.result = this.calculadoraService.somar(this.number1, this.number2);
   }
 
+  diminuir(a: number, b:number){
+    return this.result = this.calculadoraService.subtrair(this.number1, this.number2);
+  }
+
+  divisao(a: number, b:number){
+    return this.result = this.calculadoraService.dividir(this.number1, this.number2);
+  }
+
+  multiplicacao(a: number, b:number){
+    return this.result = this.calculadoraService.multiplicar(this.number1, this.number2);
+  }
+
 }
