@@ -1,0 +1,9 @@
+<div>
+<h1>Calculadora</h1>
+<div class="numbers">
+<input type="number" [(ngModel)]="number1" placeholder="number 1">
+<input type="number" [(ngModel)]="number2" placeholder="number 2">
+</div>
+<button (click)="somatoria(number1, number2)">+</button>
+<p>Resultado: {{ result }}</p>
+</div>
